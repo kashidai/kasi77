@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html>
+         <head>
+         </head>
+      <body>
+        <button type="button" onclick=action1();> click</button>
+          <h1 id="show"></h1>
+          <script>
+          function action1(){
+            var celsius = parseInt(window.prompt("put celsius"));
+            var fahrenheid;
+
+            fahrenheid = ((celsius * 1.8) + 32);
+
+            document.getElementById('show').innerHTML = "The tempurature of fahrenheit is " + fahrenheid;
+
+          }
+          </script>
+      </body>
+    </html>
